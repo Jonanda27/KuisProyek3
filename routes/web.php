@@ -31,3 +31,7 @@ Route::post('/editdatabarang/{id}', [PujasController::class, 'updatedatabarang']
 
 Route::get('/tambahdatakasir', [PujasController::class, 'tambahdatakasir'])->name('tambahdatakasir');
 Route::post('/insertdatakasir', [PujasController::class, 'insertdatakasir'])->name('insertdatakasir');
+
+
+Route::get('/tambahdatatenan', [PujasController::class, 'tambahdatatenan'])->name('tambahdatatenan');
+Route::post('/insertdatatenan', [PujasController::class, 'insertdatatenan'])->name('insertdatatenan');
